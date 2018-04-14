@@ -237,7 +237,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BunnyAI.cs" />
+    <Compile Include="Assets\Scripts\DragRabbit.cs" />
     <Compile Include="Assets\Scripts\MouseDrag.cs" />
+    <Compile Include="Assets\Scripts\RabbitMovement.cs" />
+    <Compile Include="Assets\Scripts\SwipeRabbit.cs" />
+    <Compile Include="Assets\Scripts\Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
