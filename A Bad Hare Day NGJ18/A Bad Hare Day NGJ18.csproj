@@ -237,12 +237,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BunnyAI.cs" />
-    <Compile Include="Assets\Scripts\DragRabbit.cs" />
-    <Compile Include="Assets\Scripts\MouseDrag.cs" />
-    <Compile Include="Assets\Scripts\RabbitMovement.cs" />
-    <Compile Include="Assets\Scripts\SwipeRabbit.cs" />
-    <Compile Include="Assets\Scripts\Test.cs" />
+    <Compile Include="Assets\SM_Scripts\AudioManager.cs" />
+    <Compile Include="Assets\SM_Scripts\BunnyAI.cs" />
+    <Compile Include="Assets\SM_Scripts\DragRabbit.cs" />
+    <Compile Include="Assets\SM_Scripts\SM_LoadingScreenManager.cs" />
+    <Compile Include="Assets\SM_Scripts\SM_SpawnEnemies.cs" />
+    <Compile Include="Assets\SM_Scripts\SM_SpawnWaves.cs" />
+    <Compile Include="Assets\SM_Scripts\Sound.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
